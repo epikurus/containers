@@ -13,13 +13,13 @@ _An opinionated collection of container images_
 
 <div align="center">
 
-![GitHub Repo stars](https://img.shields.io/github/stars/epikurus/containers?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/epikurus/containers?style=for-the-badge)
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/epikurus/containers/release-scheduled.yaml?style=for-the-badge&label=Scheduled%20Release)
+![GitHub Repo stars](https://img.shields.io/github/stars/onedr0p/containers?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/onedr0p/containers?style=for-the-badge)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/onedr0p/containers/release-scheduled.yaml?style=for-the-badge&label=Scheduled%20Release)
 
 </div>
 
-Welcome to our container images, if looking for a container start by [browsing the GitHub Packages page for this repo's packages](https://github.com/epikurus?tab=packages&repo_name=containers).
+Welcome to our container images, if looking for a container start by [browsing the GitHub Packages page for this repo's packages](https://github.com/onedr0p?tab=packages&repo_name=containers).
 
 ## Mission statement
 
@@ -35,10 +35,10 @@ We do take a similar approach but instead of appending a `-ls69` or `-r420` pref
 
 | Container                                          | Immutable |
 |----------------------------------------------------|-----------|
-| `ghcr.io/epikurus/sonarr:rolling`                   | ❌         |
-| `ghcr.io/epikurus/sonarr:3.0.8.1507`                | ❌         |
-| `ghcr.io/epikurus/sonarr:rolling@sha256:8053...`    | ✅         |
-| `ghcr.io/epikurus/sonarr:3.0.8.1507@sha256:8053...` | ✅         |
+| `ghcr.io/onedr0p/sonarr:rolling`                   | ❌         |
+| `ghcr.io/onedr0p/sonarr:3.0.8.1507`                | ❌         |
+| `ghcr.io/onedr0p/sonarr:rolling@sha256:8053...`    | ✅         |
+| `ghcr.io/onedr0p/sonarr:3.0.8.1507@sha256:8053...` | ✅         |
 
 _If pinning an image to the sha256 digest, tools like [Renovate](https://github.com/renovatebot/renovate) support updating the container on a digest or application version change._
 
@@ -68,6 +68,7 @@ Each Image will be built with a `rolling` tag, along with tags specific to it's 
 Container | Channel | Image | Latest Tags
 --- | --- | --- | ---
 [actions-runner](https://github.com/epikurus/containers/pkgs/container/actions-runner) | stable | ghcr.io/epikurus/actions-runner |![2](https://img.shields.io/badge/2-blue?style=flat-square) ![2.313](https://img.shields.io/badge/2.313-blue?style=flat-square) ![2.313.0](https://img.shields.io/badge/2.313.0-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
+[jackett](https://github.com/epikurus/containers/pkgs/container/jackett) | stable | ghcr.io/epikurus/jackett |![0.21.1750](https://img.shields.io/badge/0.21.1750-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
 [udp-broadcast-relay-redux](https://github.com/epikurus/containers/pkgs/container/udp-broadcast-relay-redux) | stable | ghcr.io/epikurus/udp-broadcast-relay-redux |![1](https://img.shields.io/badge/1-blue?style=flat-square) ![1.0](https://img.shields.io/badge/1.0-blue?style=flat-square) ![1.0.28](https://img.shields.io/badge/1.0.28-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
 
 
@@ -110,8 +111,6 @@ Containers here can be **deprecated** at any point, this could be for any reason
 4. The **maintenance burden** of keeping the container here **is too bothersome**
 
 **Note**: Deprecated containers will remained published to this repo for 6 months after which they will be pruned.
-
 ## Credits
 
-A lot of inspiration and ideas are thanks to the hard work of [onedr0p](https://github.com/onedr0p/containers),
-[hotio.dev](https://hotio.dev/) and [linuxserver.io](https://www.linuxserver.io/) contributors.
+A lot of inspiration and ideas are thanks to the hard work of [hotio.dev](https://hotio.dev/) and [linuxserver.io](https://www.linuxserver.io/) contributors.
