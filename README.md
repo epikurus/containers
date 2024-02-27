@@ -68,8 +68,8 @@ Each Image will be built with a `rolling` tag, along with tags specific to it's 
 Container | Channel | Image | Latest Tags
 --- | --- | --- | ---
 [actions-runner](https://github.com/epikurus/containers/pkgs/container/actions-runner) | stable | ghcr.io/epikurus/actions-runner |![2](https://img.shields.io/badge/2-blue?style=flat-square) ![2.314](https://img.shields.io/badge/2.314-blue?style=flat-square) ![2.314.0](https://img.shields.io/badge/2.314.0-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
-[jackett]() | stable | ghcr.io/epikurus/jackett |
-[udp-broadcast-relay-redux]() | stable | ghcr.io/epikurus/udp-broadcast-relay-redux |
+[jackett](https://github.com/epikurus/containers/pkgs/container/jackett) | stable | ghcr.io/epikurus/jackett |![0.21.1861](https://img.shields.io/badge/0.21.1861-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
+[udp-broadcast-relay-redux](https://github.com/epikurus/containers/pkgs/container/udp-broadcast-relay-redux) | stable | ghcr.io/epikurus/udp-broadcast-relay-redux |![1](https://img.shields.io/badge/1-blue?style=flat-square) ![1.0](https://img.shields.io/badge/1.0-blue?style=flat-square) ![1.0.28](https://img.shields.io/badge/1.0.28-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
 
 
 ## Contributing
