@@ -5,7 +5,11 @@
     "docker:enableMajor",
     ":dependencyDashboard",
     ":disableRateLimiting",
-    ":semanticCommits"
+    ":rebaseStalePrs",
+    ":semanticCommits",
+    "group:linters",
+    "group:recommended",
+    "group:monorepos"
   ],
   "onboarding": false,
   "requireConfig": "optional",
