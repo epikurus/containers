@@ -1,4 +1,4 @@
-FROM docker.io/library/alpine:3.20 AS builder
+FROM docker.io/library/alpine:3.21 AS builder
 ARG VERSION
 
 WORKDIR /build
@@ -17,7 +17,7 @@ RUN \
   fi \
   && gcc -g main.c -o udp-broadcast-relay-redux
 
-FROM docker.io/library/alpine:3.20.0
+FROM docker.io/library/alpine:3.21.2
 WORKDIR /app
 RUN \
   apk add --no-cache \
