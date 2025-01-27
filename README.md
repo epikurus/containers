@@ -69,7 +69,7 @@ Container | Channel | Image | Latest Tags
 --- | --- | --- | ---
 [actions-runner](https://github.com/epikurus/containers/pkgs/container/actions-runner) | stable | ghcr.io/epikurus/actions-runner |![2](https://img.shields.io/badge/2-blue?style=flat-square) ![2.322](https://img.shields.io/badge/2.322-blue?style=flat-square) ![2.322.0](https://img.shields.io/badge/2.322.0-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
 [jackett](https://github.com/epikurus/containers/pkgs/container/jackett) | stable | ghcr.io/epikurus/jackett |![0.22.1316](https://img.shields.io/badge/0.22.1316-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
-[udp-broadcast-relay-redux](https://github.com/epikurus/containers/pkgs/container/udp-broadcast-relay-redux) | stable | ghcr.io/epikurus/udp-broadcast-relay-redux |![1](https://img.shields.io/badge/1-blue?style=flat-square) ![1.0](https://img.shields.io/badge/1.0-blue?style=flat-square) ![1.0.28](https://img.shields.io/badge/1.0.28-blue?style=flat-square) ![rolling](https://img.shields.io/badge/rolling-blue?style=flat-square)
+[udp-broadcast-relay-redux]() | stable | ghcr.io/epikurus/udp-broadcast-relay-redux |
 
 
 ## Contributing
