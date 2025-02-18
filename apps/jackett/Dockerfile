@@ -1,4 +1,4 @@
-FROM ghcr.io/epikurus/ubuntu:jammy-20240911.1
+FROM ghcr.io/epikurus/ubuntu:jammy-20250126
 
 ARG TARGETPLATFORM
 ARG VERSION
