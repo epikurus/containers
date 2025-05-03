@@ -1,8 +1,8 @@
-FROM squidfunk/mkdocs-material:9.6.12
-
 ARG TARGETPLATFORM
 ARG VERSION
 ARG CHANNEL
+
+FROM squidfunk/mkdocs-material:${VERSION}
 
 RUN \
 	pip install mkdocs-awesome-nav
