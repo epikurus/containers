@@ -6,7 +6,7 @@ process:
 
 # https://github.com/aelsabbahy/goss/blob/master/docs/manual.md#port
 port:
-  tcp:9117:
+  tcp6:9117:
     listening: true
 
 # https://github.com/aelsabbahy/goss/blob/master/docs/manual.md#http
