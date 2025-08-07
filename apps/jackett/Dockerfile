@@ -11,6 +11,7 @@ RUN \
     apt-get -qq update \
     && \
     apt-get -qq install -y \
+        curl \
         libicu70 \
     && \
     case "${TARGETPLATFORM}" in \
@@ -37,6 +38,7 @@ RUN \
 
 USER kah
 COPY ./apps/jackett/entrypoint.sh /entrypoint.sh
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 CMD curl -f "http://127.0.0.1:9117/api/v2.0/index/configs" || exit 1
 CMD ["/entrypoint.sh"]
 
 LABEL org.opencontainers.image.source="https://github.com/Jackett/Jackett"
